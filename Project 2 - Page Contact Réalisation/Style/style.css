@@ -66,7 +66,19 @@ ul, li {
     font-size: 15px;
     position: relative;
     left: 80px;
-    
+    list-style: none;
+}
+
+a {
+
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+  
+    color: whitesmoke;
+
 }
 
 #logo {
@@ -100,6 +112,7 @@ ul, li {
 }
 
 #login {
+
     float: right;
     position: relative;
     left: 100px;
@@ -122,5 +135,28 @@ ul, li {
 }
 
 #login:hover{
+
     background-color: #000;
+
+}
+
+/* navbar end*/
+
+.form-container {
+    margin-top: 140px;
+    margin-left: 40px;
+    width: 50%;
+}
+input {
+    display: block;
+    margin-top: 30px;
+    width: 400px;
+    
+}
+textarea{
+    
+    width: 400px;
+    resize: none;
+    margin-top: 30px;
+    height: 100px;
 }
