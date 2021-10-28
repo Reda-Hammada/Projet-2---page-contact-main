@@ -1,10 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+:root {
+
+    --universal-color: #476072;
+    --universal-font: 'Roboto', sans-serif;
+}
+
 body {
     overflow-x: hidden;
-    background-color: black;
+    background-color: white;
+}
+
+.navbar-contactus {  /* navbar and contact us start */
+
+    width: 100%;
+    height: 160px;
+    background-color: #476072;
+    position: sticky;
+    top: 0;
+}
+
+
+.contactus-container {
+
+    text-align: center;
+    height: 266px;
+    width: 100%;
+    background-color: var(--universal-color);
+    
+
+}
+
+.contactus-container h1  {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.9rem;
+    color: #fff;
+    padding-bottom: 30px;
+    
+}
+
+.contactus-container p {
+
+    font-family: var(--universal-font) ;
+    color: #fff;
+    opacity: 0.7;
+    padding-left: 10px;
+
+}
+ul, li {
+   
+    display: inline;
+    font-family: var(--universal-font);
+    color: #fff;
+    opacity: 0.9;
+    margin-left: 50px;
+    list-style: none;
+    font-size: 15px;
+    position: relative;
+    left: 80px;
+    
+}
+
+#logo {
+
+   position: relative;
+   left: 20px;
+   top:  23px;
+}
+  #freetrial{
+  float  : right;
+  width:
+
 }
