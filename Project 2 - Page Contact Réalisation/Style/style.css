@@ -75,7 +75,14 @@ ul, li {
    top:  23px;
 }
   #freetrial{
-  float  : right;
-  width:
-
+  float: right;
+  width: 140px;
+  height: 40px;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-style: none;
+  cursor: pointer;
 }
