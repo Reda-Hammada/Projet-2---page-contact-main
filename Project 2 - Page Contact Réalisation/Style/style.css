@@ -25,6 +25,7 @@ body {
     background-color: #476072;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 
