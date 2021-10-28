@@ -15,12 +15,13 @@
 body {
     overflow-x: hidden;
     background-color: white;
+    height: 2000px;
 }
 
 .navbar-contactus {  /* navbar and contact us start */
 
     width: 100%;
-    height: 160px;
+    height: 150px;
     background-color: #476072;
     position: sticky;
     top: 0;
@@ -76,8 +77,8 @@ ul, li {
 }
   #freetrial{
   float: right;
-  width: 140px;
-  height: 40px;
+  width: 180px;
+  height: 47px;
   border-radius: 7px;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
@@ -85,4 +86,41 @@ ul, li {
   -o-border-radius: 7px;
   border-style: none;
   cursor: pointer;
+  background-color: #548CA8;
+  color: #fff;
+  font-family: var(--universal-font);
+  position: relative;
+  right: 200px;
+  bottom: 15px;
+}
+
+#freetrial:hover {
+
+    background-color:  #000;
+}
+
+#login {
+    float: right;
+    position: relative;
+    left: 100px;
+    width: 100px;
+    height: 47px;
+    bottom: 16px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border-style: none;
+    background-color: var(--universal-color);
+    color: #fff;
+    font-family: var(--universal-font);
+    border-color: #fff;
+    border-style: solid;
+    cursor: pointer;
+
+}
+
+#login:hover{
+    background-color: #000;
 }
