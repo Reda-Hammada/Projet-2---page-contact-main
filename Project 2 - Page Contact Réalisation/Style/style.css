@@ -329,7 +329,6 @@ footer { /* footer starts */
 
 .footerlist {
     font-family: var(--universal-font);
-    align-items: center;
     left: 300px;
     width: 140px;
     float: left;
