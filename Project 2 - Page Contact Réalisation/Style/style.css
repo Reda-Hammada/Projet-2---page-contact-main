@@ -242,4 +242,60 @@ textarea{
 
     font-family: var(--universal-font);
     color: #000;
+    padding-bottom: 30px;
+}
+
+  #iconfb  {
+    color:#548CA8;
+    font-size: 50px;
+}
+
+#bethefirst {
+
+    position: relative;
+    left: 60px;
+    bottom: 45px;
+
+}
+
+#fbspan {
+
+    color: #548CA8;
+    cursor: pointer;
+}
+
+#twitter {
+    font-size: 50px;
+    color: #548CA8;
+    border-radius: 0.8em;
+}
+    
+#wantthebest {
+
+    position: relative;
+    left: 60px;
+    bottom: 45px;
+
+}
+
+#twitterspan {
+    color: #548CA8;
+    cursor: pointer;
+}
+
+#lkdnicon {
+
+    font-size: 50px;
+    color: #548CA8;
+}
+
+#followspan { 
+    color: #548CA8;
+    cursor: pointer;
+}
+
+#followus {
+    position: relative;
+    left: 60px;
+    bottom: 45px;
 }
