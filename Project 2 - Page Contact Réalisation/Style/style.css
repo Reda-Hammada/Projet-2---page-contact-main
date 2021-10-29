@@ -390,6 +390,12 @@ footer { /* footer starts */
     margin-top: 10px;
 }
 
+#footerbutton:hover {
+
+    background-color: black;
+
+}
+
 .copyright {
 
     height: 20px;
