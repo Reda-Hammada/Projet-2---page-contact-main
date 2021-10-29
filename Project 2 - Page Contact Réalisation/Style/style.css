@@ -6,10 +6,7 @@
     box-sizing: border-box;
 }
 
-html {
 
-    height: 100%;
-}
 
 :root {
 
@@ -17,11 +14,16 @@ html {
     --universal-font: 'Roboto', sans-serif;
  
 }
-
+html {
+     
+    height:100%;
+}
 body {
     overflow-x: hidden;
     background-color: white;
     height: fit-content;
+
+    
 }
 
 .navbar-contactus {  /* navbar and contact us start */
@@ -151,13 +153,13 @@ a:hover {
 
 .ultimate-container {
 
-    height: 300px;
+    height: fit-content;
+
 }
 
 .form-container {   /* form starts */
     margin-top: 140px;
     margin-left: 90px;
-    width: 50%;    
 }
 
 
@@ -228,10 +230,10 @@ textarea{
 .landerteam-container { /* lander team starts */
 
     width: 50%;
-    float: right;
-    position: relative;
-    left: 130px;
-    bottom: 710px;
+    float: left;
+    margin-left: 60em;
+    margin-top: -44.5em;
+
 }
 
 .landerteam-container #landerteam {
@@ -315,23 +317,34 @@ textarea{
 footer { /* footer starts */
 
     background-color: var(--universal-color);
-    height: 400px;
+    height: 320px;
     margin-top: 400px;
     padding-left: 30px;
     width: 100%;
-
+}
+.clearfix {
+    clear: both;
 }
 
 .footerlist {
-    float: left;
     font-family: var(--universal-font);
-    margin-top: 50px;
     align-items: center;
-    position: relative;
     left: 300px;
-    width: 100px;
-    margin-left: 30px;
+    width: 140px;
+    float: left;
+    margin: 40px
+
 }
+
+
+.list {
+
+    float: left;
+    line-height: 1.6rem;
+    margin: 20px 40px;
+}
+
+
 
 .footerlist .title {
 
@@ -374,4 +387,21 @@ footer { /* footer starts */
     border-style: hidden;
     cursor: pointer;
     margin-top: 10px;
+}
+
+.copyright {
+
+    height: 20px;
+    width: 100%;
+    
+}
+#copyrightspara {
+
+    font-family: var(--universal-font);
+    color: whitesmoke;
+    opacity: 0.6;
+}
+
+#copyrightspan {
+    color: #548CA8
 }
