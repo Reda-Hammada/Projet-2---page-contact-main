@@ -153,7 +153,7 @@ a:hover {
 
 .ultimate-container {
 
-    height: fit-content;
+    height: 300px;
 
 }
 
@@ -318,9 +318,10 @@ footer { /* footer starts */
 
     background-color: var(--universal-color);
     height: 320px;
-    margin-top: 400px;
+    margin-top: 0px;
     padding-left: 30px;
     width: 100%;
+    m
 }
 .clearfix {
     clear: both;
