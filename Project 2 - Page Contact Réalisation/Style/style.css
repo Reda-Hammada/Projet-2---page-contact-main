@@ -317,13 +317,20 @@ footer { /* footer starts */
     background-color: var(--universal-color);
     height: 400px;
     margin-top: 400px;
+    padding-left: 30px;
+    width: 100%;
+
 }
 
 .footerlist {
-    width: 150px;
     float: left;
     font-family: var(--universal-font);
     margin-top: 50px;
+    align-items: center;
+    position: relative;
+    left: 300px;
+    width: 100px;
+    margin-left: 30px;
 }
 
 .footerlist .title {
@@ -338,6 +345,7 @@ footer { /* footer starts */
     list-style: none;
     color: whitesmoke;
     opacity: 0.6;
+    
 }
 
 .footerlist i {
@@ -350,4 +358,20 @@ footer { /* footer starts */
 
     color:#fff;
     opacity: 0.6;
+}
+
+#footerbutton {
+    background-color: #548CA8;
+    font-family: var(--universal-font);
+    color: #fff;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-style: hidden;
+    cursor: pointer;
+    margin-top: 10px;
 }
