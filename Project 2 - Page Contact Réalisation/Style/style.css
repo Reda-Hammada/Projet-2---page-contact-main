@@ -10,6 +10,7 @@
 
     --universal-color: #476072;
     --universal-font: 'Roboto', sans-serif;
+ 
 }
 
 body {
@@ -143,21 +144,72 @@ a:hover {
 
 /* navbar end*/
 
-.form-container {
+
+.ultimate-container {
+
+    width: 100%;
+}
+
+.form-container {   /* form starts */
     margin-top: 140px;
-    margin-left: 40px;
+    margin-left: 90px;
     width: 50%;
+}
+
+
+.form-container h2 {
+
+    color:#548CA8;
+    font-family: var(--universal-font);
+    margin-bottom: 10px;
+}
+
+.form-container p {
+
+    font-family: var(--universal-font);
+    font-style: normal;
+  
 }
 input {
     display: block;
     margin-top: 30px;
-    width: 400px;
-    
+    width: 490px;
+    height: 35px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-style: solid black;
+    padding-left: 30px;
+    opacity: 0.7;
 }
 textarea{
-    
-    width: 400px;
+    width: 490px;
     resize: none;
     margin-top: 30px;
-    height: 100px;
+    height: 190px;
+    border-radius: 3px ;
+    -webkit-border-radius: 3px ;
+    -moz-border-radius: 3px ;
+    -ms-border-radius: 3px ;
+    -o-border-radius: 3px ;
+    border-style: solid black;
+    opacity: 0.7;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+
+#submitbutton {
+
+    width: 140px;
+    height: 40px;
+    color: #fff;
+    background-color: #548CA8;
+    font-family: var(--universal-font);
+    border-style: hidden;
+    position: relative;
+    left: 350px;
+    padding-right: 30px;
 }
