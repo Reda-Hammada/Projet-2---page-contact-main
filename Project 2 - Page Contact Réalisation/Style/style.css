@@ -62,7 +62,7 @@ body {
     padding-left: 10px;
 
 }
-ul, li {
+.navbar li {
    
     display: inline;
     font-family: var(--universal-font);
@@ -72,7 +72,7 @@ ul, li {
     list-style: none;
     font-size: 15px;
     position: relative;
-    left: 80px;
+    left: 240px;
     list-style: none;
 }
 
@@ -110,7 +110,7 @@ a:hover {
   font-family: var(--universal-font);
   position: relative;
   right: 200px;
-  bottom: 15px;
+  bottom: 35px;
 }
 
 #freetrial:hover {
@@ -125,8 +125,7 @@ a:hover {
     left: 100px;
     width: 100px;
     height: 47px;
-    bottom: 16px;
-    border-radius: 7px;
+    bottom: 35px;    border-radius: 7px;
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
     -ms-border-radius: 7px;
@@ -313,10 +312,42 @@ textarea{
 
 /* lander team starts */
 
-footer {
+footer { /* footer starts */
 
     background-color: var(--universal-color);
     height: 400px;
     margin-top: 400px;
 }
 
+.footerlist {
+    width: 150px;
+    float: left;
+    font-family: var(--universal-font);
+    margin-top: 50px;
+}
+
+.footerlist .title {
+
+    color: #fff;
+    font-style: normal;
+
+}
+
+.footerlist li {
+
+    list-style: none;
+    color: whitesmoke;
+    opacity: 0.6;
+}
+
+.footerlist i {
+
+    color: #548CA8;
+    stroke:#548CA8;
+}
+
+.footerlist p {
+
+    color:#fff;
+    opacity: 0.6;
+}
