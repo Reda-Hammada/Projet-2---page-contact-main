@@ -16,7 +16,6 @@
 body {
     overflow-x: hidden;
     background-color: white;
-    height: 2000px;
 }
 
 .navbar-contactus {  /* navbar and contact us start */
@@ -33,7 +32,7 @@ body {
 .contactus-container {
 
     text-align: center;
-    height: 266px;
+    height: 226px;
     width: 100%;
     background-color: var(--universal-color);
     
@@ -212,4 +211,34 @@ textarea{
     position: relative;
     left: 350px;
     padding-right: 30px;
+    cursor: pointer;
+} /* form end */
+
+
+.landerteam-container {
+
+    width: 50%;
+    float: right;
+    position: relative;
+    left: 130px;
+    bottom: 626px;
+}
+
+.landerteam-container #landerteam {
+    
+    font-family: var(--universal-font);
+    color:#548CA8;
+    padding-bottom: 20px;
+}
+
+.landerteam-container p {
+
+    color: #000;
+    font-family: var(--universal-font);
+    padding-bottom: 20px;
+}
+
+.landerteam-container #othersway {
+
+    font-family: var(--universal-font);
 }
