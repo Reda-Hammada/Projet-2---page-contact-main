@@ -14,10 +14,7 @@
     --universal-font: 'Roboto', sans-serif;
  
 }
-html {
-     
-    height:100%;
-}
+
 body {
     overflow-x: hidden;
     background-color: white;
